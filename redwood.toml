@@ -6,7 +6,7 @@
 # https://redwoodjs.com/docs/app-configuration-redwood-toml
 
 [web]
-  title = "Redwood App"
+  title = "Star Fee"
   port = 8910
   apiUrl = "/api"
   includeEnvironmentVariables = [
@@ -19,3 +19,6 @@
   open = true
 [notifications]
   versionUpdates = ["latest"]
+[generate]
+  tests = false
+  stories = false
