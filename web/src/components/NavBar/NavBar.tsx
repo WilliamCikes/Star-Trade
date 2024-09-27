@@ -13,13 +13,6 @@ const NavBar = () => {
           href={item.route as unknown as string}
           label={item.name}
           leftSection={item.icon}
-          rightSection={
-            item.comingSoon ? (
-              <Badge color="blue" size={'xs'}>
-                Future
-              </Badge>
-            ) : undefined
-          }
         />
       ))}
     </>

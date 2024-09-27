@@ -419,7 +419,7 @@ const HomePage = () => {
   const [earnings, setEarnings] = useState<EarningsResult | null>()
 
   const handleCalculate = () => {
-    setEarnings(calculateEarnings(UEC, citizens))
+    // setEarnings(calculateEarnings(UEC, citizens))
   }
   return (
     <div className={'dark'}>

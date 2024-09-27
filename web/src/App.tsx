@@ -3,6 +3,8 @@
 import '@mantine/core/styles.css'
 import './index.css'
 
+import React, { ReactNode } from 'react'
+
 import {
   ColorSchemeScript,
   MantineProvider,
@@ -16,6 +18,10 @@ import { RedwoodApolloProvider } from '@redwoodjs/web/apollo'
 
 import FatalErrorPage from 'src/pages/FatalErrorPage'
 import Routes from 'src/Routes'
+
+interface AppProps {
+  children: ReactNode
+}
 
 const myColor: MantineColorsTuple = [
   '#f3edff',
@@ -36,7 +42,7 @@ const theme = createTheme({
   },
 })
 
-const App = () => (
+const App: React.FC<AppProps> = () => (
   <FatalErrorBoundary page={FatalErrorPage}>
     <RedwoodProvider titleTemplate="%PageTitle | %AppTitle">
       <JotaiProvider>
