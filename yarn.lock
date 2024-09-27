@@ -11202,9 +11202,9 @@ __metadata:
   linkType: hard
 
 "flow-parser@npm:0.*":
-  version: 0.246.0
-  resolution: "flow-parser@npm:0.246.0"
-  checksum: 10c0/cdecd7434a9b8c2f59ed7f8233c0f10026c4d6d5619d47060403e723d78d3ebce2e6e3c7cf89f7b693ff0412c28c05fa0760997c0134edf1e78a4c90381dbc9d
+  version: 0.247.0
+  resolution: "flow-parser@npm:0.247.0"
+  checksum: 10c0/66d5a19adea904ffcfc126d6a4442922a55fd1537e6a48afee1f7d20e1dfe22e8b8fe120305bc64ef5f0cc6c3e36d403275146e15b9f8a3023678e87f883a630
   languageName: node
   linkType: hard
 
@@ -18706,7 +18706,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:5.6.2":
+"typescript@npm:5.6.2, typescript@npm:^5.6.2":
   version: 5.6.2
   resolution: "typescript@npm:5.6.2"
   bin:
@@ -18716,7 +18716,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@npm%3A5.6.2#optional!builtin<compat/typescript>":
+"typescript@patch:typescript@npm%3A5.6.2#optional!builtin<compat/typescript>, typescript@patch:typescript@npm%3A^5.6.2#optional!builtin<compat/typescript>":
   version: 5.6.2
   resolution: "typescript@patch:typescript@npm%3A5.6.2#optional!builtin<compat/typescript>::version=5.6.2&hash=8c6c40"
   bin:
@@ -19342,6 +19342,7 @@ __metadata:
     tailwindcss: "npm:^3.4.10"
     three: "npm:^0.168.0"
     three-globe: "npm:^2.31.1"
+    typescript: "npm:^5.6.2"
   languageName: unknown
   linkType: soft
 
